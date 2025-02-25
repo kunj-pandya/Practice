@@ -135,3 +135,7 @@ function getMin(number1){
 // QS: Create a new array using the map function whose each element is equal to the original element puls 5.
 let mapPlus = [2, 4, 6, 1, 8, 5, 9];
 console.log(mapPlus.map((number)=> number +5));
+
+
+
+console.log("kunj");
