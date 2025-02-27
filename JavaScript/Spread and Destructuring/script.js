@@ -15,7 +15,9 @@ const data = {
 };
 
 const dataCopy = {...data, id : 123};
-console.log( dataCopy);
+// console.log( dataCopy);
+
+
 
 
 

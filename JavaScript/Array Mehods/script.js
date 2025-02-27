@@ -59,7 +59,7 @@ let ans = nums.filter((el) => {
 
 
 //  Every 
-//  Every : its return true or false.(retuns ture if every element oa array gives true for some function,Else retuns false).
+//  Every : its return true or false.(retuns ture if every element of array gives true for some function,Else retuns false).
 let nums1 = [2, 4, 6, 8, 10];
 
 let ans1 = nums1.every((el) => {
@@ -107,13 +107,22 @@ let max = arr2.reduce((max, el) => {
 // console.log(max);
 
 
-// Prectice Qs //
+
+
+
+
+//  =>Prectice Qs   //
+
+
 
 // QS: Check if numbers in the array are multiples of 10 or not.
 let number = [10, 20, 60, 40, 90];
 
 let mul = number.every((el) =>  el % 10 == 0);
 // console.log(mul);
+
+
+
 
 
 // QS: create function to find the min number in an array.
@@ -132,10 +141,34 @@ function getMin(number1){
 // console.log(getMin(number1));
 
 
+
+
 // QS: Create a new array using the map function whose each element is equal to the original element puls 5.
 let mapPlus = [2, 4, 6, 1, 8, 5, 9];
-console.log(mapPlus.map((number)=> number +5));
+// console.log(mapPlus.map((number)=> number +5));
 
 
 
-console.log("kunj");
+
+// QS: Square and sum the array elements using the arrow function and then find the average of the array.
+let squNumber = [1, 2, 3, 4, 5];
+
+const square =  squNumber.map((num) => num * num);
+// console.log(square);
+
+
+let sumSquare = square.reduce((acc, cur) => acc + cur , 0);
+let avgSquare = sumSquare / squNumber.length;
+// console.log(avgSquare);
+
+
+
+
+// QS: Create a new array whose elements are in uppercase of words present in the original array.
+let strings = ["pandya", "kunj", "yogeshkumar"];
+
+console.log(strings.map((string) => string.toUpperCase()));
+
+
+
+
