@@ -9,7 +9,6 @@
 // }
 
 // changing images using Class name.
-
 // let smallImages = document.getElementsByClassName("oldImg");
 // for (let i = 0; i < smallImages.length; i++){
 //     smallImages[i].src = "assets/spiderman_img.png";
@@ -32,7 +31,6 @@
 // document.querySelectorAll("p");
 // selects all p elements.
 
-
 // console.dir(document.querySelector("h1"));
 // console.dir(document.querySelector("#description"));
 // console.dir(document.querySelector(".oldImg"));
@@ -40,6 +38,28 @@
 //  Selects all elements with class = oldImg
 //  console.dir(document.querySelectorAll(".oldImg"));
 
-
+// Nesting.
 // console.dir(document.querySelector("div a"));
+
+
+
+//  Manipulating style(with style attribute).
+// let links = document.querySelectorAll(".box a");
+// for (let i = 0; i < links.length; i++) {
+//     links[i].style.color = "purple";
+// }
+
+// using for of loop
+// let links = document.querySelectorAll(".box a");
+// for (link of links) {
+//     link.style.color = "green";   //inline style
+// }
+
+
+// Manipulating styleusing classList 
+// obj.classList
+// classList.add() to add new classes.
+// classList.remove() to remove classes.
+// classList.contains() to check if class exists.
+// classList.toggle() to toggle between add & remove.
 
